@@ -103,6 +103,14 @@ The `Hypem::Users` present in each page can be retrieved via the `users` instanc
 
 ****** 
 
+### Track Mp3 ###
+A track's mp3 link can be retrieved via Hypem::TrackMp3.new('trackid') and synced using the 'get' method.
+
+```
+mp3Url = Hypem::TrackMp3.new('1zxx9').get()
+```
+
+****** 
 ## TODO ###
 - Blogs with given tag
 - Authenticated Requests
