@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake"
   s.add_development_dependency "timecop"
   s.add_dependency 'httparty'
+  s.add_dependency 'nokogiri'
   s.add_dependency 'andand'
 
 end

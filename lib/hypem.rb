@@ -9,6 +9,7 @@ require "hypem/exceptions"
 
 require "hypem/track_favorites_request"
 require "hypem/track_favorites"
+require "hypem/track_mp3"
 
 
 module Hypem
