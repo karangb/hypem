@@ -6,6 +6,7 @@ require "hypem/track"
 require "hypem/playlist"
 require "hypem/blog"
 require "hypem/exceptions"
+require "hypem/jsonable"
 
 require "hypem/track_favorites_request"
 require "hypem/track_favorites"
