@@ -1,5 +1,7 @@
+require "hypem/jsonable"
+
 module Hypem
-  class Track
+  class Track < ::JSONable
     include Helper
 
     attr_accessor :media_id

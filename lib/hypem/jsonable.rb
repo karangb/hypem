@@ -1,5 +1,5 @@
 class JSONable
-    def to_json
+    def to_json(options = {})
         hash = {}
         self.instance_variables.each do |var|
             hash[var] = self.instance_variable_get var

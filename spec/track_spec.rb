@@ -38,6 +38,12 @@ describe Hypem::Track do
     its(:site_id_first) { should be_an Integer }
   end
 
+  describe "jsonable" do
+    it "should be able to convert to json" do
+      described_class.new(track_hash).to_json.should == "{\"@media_id\":\"1n2qh\",\"@artist\":\"I am bart(ek)\",\"@title\":\"happiness\",\"@date_posted\":\"2012-06-26T01:11:43+01:00\",\"@site_id\":14392,\"@site_name\":\"Those Who Dig\",\"@post_url\":\"http:\/\/www.thosewhodig.net\/article\/michael-the-blind-and-i-am-bartek\/840\/\",\"@post_id\":1851485,\"@date_posted_first\":\"2012-06-26T01:11:43+01:00\",\"@site_id_first\":14392,\"@site_name_first\":\"Those Who Dig\",\"@post_url_first\":\"http:\/\/www.thosewhodig.net\/article\/michael-the-blind-and-i-am-bartek\/840\/\",\"@post_id_first\":1851485,\"@loved_count\":4,\"@posted_count\":1,\"@thumb_url\":\"http:\/\/static-ak.hypem.net\/images\/albumart0.gif\",\"@thumb_url_large\":\"http:\/\/static-ak.hypem.net\/images\/blog_images\/14392.jpg\",\"@time\":328,\"@description\":\"Been enjoying sharing little posts of pairs of tunes the past few weeks, so I don\'t see why I shouldn\'t keep it going. Tonight we have Michael the Blind and I Am Bart(ek).\",\"@itunes_link\":\"http:\/\/hypem.com\/go\/itunes_search\/I%20am%20bart(ek)\"}"
+    end
+  end
+
   describe "#initialize" do
     context "from a hash" do
       subject { track_from_hash }
