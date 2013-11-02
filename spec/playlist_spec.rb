@@ -170,5 +170,11 @@ describe Hypem::Playlist do
       end
     end
   end
-
+  describe "jsonable" do
+    let(:tracks) {[mock('Hypem::Track',id: 'track1',), mock('Hypem::Track',id:'track2')]}
+    subject { Hypem::Playlist.new_from_tracks(tracks).to_json }
+    it "should be able to convert to json" do
+      blog_playlist.to_json.should == "{\"@type\":\"blog\",\"@arg\":1,\"@page\":1,\"@path\":\"\/playlist\/blog\/1\"}"
+    end
+  end
 end

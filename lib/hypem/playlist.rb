@@ -1,5 +1,7 @@
+require "hypem/jsonable"
+
 module Hypem
-  class Playlist
+  class Playlist < ::JSONable
     POPULAR_ARGS = [%s(3day),:lastweek,:noremix,:artists,:twitter]
     attr_accessor :path, :tracks
     attr_reader :extended
