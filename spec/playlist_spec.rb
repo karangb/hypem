@@ -170,6 +170,7 @@ describe Hypem::Playlist do
       end
     end
   end
+
   describe "jsonable" do
     let(:tracks) {[mock('Hypem::Track',id: 'track1',), mock('Hypem::Track',id:'track2')]}
     subject { Hypem::Playlist.new_from_tracks(tracks).to_json }
