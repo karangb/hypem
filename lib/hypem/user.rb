@@ -1,5 +1,7 @@
+require "hypem/jsonable"
+
 module Hypem
-  class User
+  class User < ::JSONable
     include Helper
 
     convert_keys fullname: :full_name, userpic: :image_url, joined_ts: :joined_at

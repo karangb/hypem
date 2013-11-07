@@ -77,6 +77,16 @@ describe Hypem::User do
     end
   end
 
+  describe "toJson" do
+    let(:user_with_profile) do
+      VCR.use_cassette('user_profile') {user.get_profile}
+    end
+
+    it "should be able to convert profile to json" do
+      user_with_profile.to_json.should == "{\"@name\":\"jackca\",\"@username\":\"JackCA\",\"@profile_url\":\"http://hypem.com/JackCA\",\"@full_name\":\"Jack Anderson\",\"@twitter_username\":\"janderson\",\"@image_url\":\"http://faces-s3.hypem.com/123376863051420_75.png\",\"@joined_at\":\"2009-03-30T01:06:55+01:00\",\"@location\":\"San Francisco, CA, US\",\"@followed_users_count\":6,\"@followed_items_count\":511,\"@followed_sites_count\":39,\"@followed_queries_count\":17,\"@followed_followerss_count\":2}"
+    end
+  end
+
   describe "#favorite_blogs" do
     let(:user_with_favorite_blogs) do
       VCR.use_cassette('user_favorite_blogs') {user.favorite_blogs}
