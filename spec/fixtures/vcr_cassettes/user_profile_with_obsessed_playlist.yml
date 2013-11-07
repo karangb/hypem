@@ -1,0 +1,235 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.hypem.com/api/get_profile?username=jackca
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/html
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.3
+      Date:
+      - Thu, 07 Nov 2013 19:49:40 GMT
+      Content-Type:
+      - text/javascript; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=10
+      Set-Cookie:
+      - AUTH=03%3A88c34686dffce0fe7f25be8e3ce8a39e%3A1383853780%3A1298538351%3AH9-GB;
+        expires=Sat, 03-Nov-2029 19:49:40 GMT; path=/; domain=hypem.com
+      X-Hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Headers:
+      - '*'
+    body:
+      encoding: UTF-8
+      string: '{"username":"JackCA","profile_url":"http:\/\/hypem.com\/JackCA","fullname":"Jack
+        Anderson","twitter_username":"janderson","userpic":"http:\/\/s3.amazonaws.com\/faces-s3.hypem.com\/123376770654842_75.png","joined_ts":1238371615,"favorites_count":{"user":9,"item":702,"site":46,"query":21,"followers":5},"location":"San
+        Francisco, CA, US"}'
+    http_version: 
+  recorded_at: Thu, 07 Nov 2013 19:49:41 GMT
+- request:
+    method: get
+    uri: http://api.hypem.com/playlist/obsessed/jackca/json/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/html
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.3
+      Date:
+      - Thu, 07 Nov 2013 19:49:40 GMT
+      Content-Type:
+      - text/javascript; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=10
+      Set-Cookie:
+      - AUTH=03%3Afae6c15da268d632a1aa4351f491614d%3A1383853780%3A1298538351%3AH9-GB;
+        expires=Sat, 03-Nov-2029 19:49:40 GMT; Max-Age=504576000; path=/; domain=hypem.com
+      X-Hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Headers:
+      - '*'
+    body:
+      encoding: UTF-8
+      string: '{"version":"1.1","0":{"mediaid":"1yr1j","artist":"Holy Ghost","title":"Okay","dateposted":1382912475,"siteid":17477,"sitename":"The
+        Ripe","posturl":"http:\/\/www.theripe.tv\/holy-ghost-hold-on-were-going-home-drake-cover\/","postid":2345843,"loved_count":4761,"posted_count":41,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/9a\/2308506.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/9a\/2308506_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/a1\/2299553_320.jpg","thumb_url_artist":null,"time":274,"description":"New
+        York synthpop duo Holy Ghost! debuted their glitzy new cover of Drake\u2019s
+        single \u2018Hold On, We\u2019re Coming Home\u2018 over the airwaves of a
+        Seattle radio station last week. While the original track is a smoother, silkier
+        sound for Drake, Holy Ghost have captur","dateloved":1383275531,"plays":29,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Holy%20Ghost"},"1":{"mediaid":"1ysx8","artist":"Yuna","title":"Falling
+        (produced by Robin Hannibal)","dateposted":1382678068,"siteid":13464,"sitename":"Seattle
+        in High Def","posturl":"http:\/\/seainhd.com\/2013\/10\/bangerang-cuz-youre-a-good-girl-and-you-know-it.html","postid":2344060,"loved_count":7973,"posted_count":16,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/a1\/2291361.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/a1\/2291361_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/a1\/2291361_320.jpg","thumb_url_artist":null,"time":247,"description":"This
+        Cover is so Dope! well kinda, its mostly fun to hear hiphop rap covered by
+        dinky electro pop. Adventure Ccclub is seriously killing it with these traks.
+        This first one is called GOLD, it features YUNA, who has a hot track with
+        theophilus london. I co","dateloved":1383424196,"plays":22,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Yuna"},"2":{"mediaid":"1v9m0","artist":"Naughty
+        Boy","title":"La La La (feat. Sam Smith)","dateposted":1382562046,"siteid":10819,"sitename":"the
+        burning ear","posturl":"http:\/\/www.theburningear.com\/2013\/10\/naughty-boy-la-la-la-feat-sam-smith\/","postid":2342488,"loved_count":12363,"posted_count":13,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/58\/2342488.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/58\/2342488_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/85\/2286725_320.jpg","thumb_url_artist":null,"time":222,"description":"I
+        know I\u2019m 6 months (and 155 million views!) late but just in case you
+        missed this jam like I did, here it is. Catch up! Now time to dove into the
+        whole Naughty Boy album\u2026","dateloved":1383424700,"plays":20,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Naughty%20Boy"},"3":{"mediaid":"1r0qr","artist":"Flight
+        Facilities","title":"Clair De Lune (feat. Christine Hoberg)","dateposted":1382898068,"siteid":18197,"sitename":"Y
+        Este Finde Que","posturl":"http:\/\/www.yestefindeque.com\/2013\/10\/flight-facilities-feat-christine-hoberg_27.html","postid":2345729,"loved_count":17425,"posted_count":67,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/7a\/2338426.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/7a\/2338426_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/7a\/2338426_320.jpg","thumb_url_artist":null,"time":462,"description":"Continuando
+        con las producciones ideales para una tarde de Domingo os traemos ahora al
+        gran d\u00fao australiano Flight Facilities con el lanzamiento de su single
+        \"Clair De Lune\" en su versi\u00f3n Remixes EP. Tras el adelanto en forma
+        de Edit free download protago","dateloved":1379736700,"plays":19,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Flight%20Facilities"},"4":{"mediaid":"1yrs9","artist":"Zero
+        7","title":"On My Own (12\" Version)","dateposted":1379611280,"siteid":16816,"sitename":"Delicieuse
+        Musique","posturl":"http:\/\/www.delicieuse-musique.com\/post\/61574663064\/concours-de-circonstances-aujourdhui-tous-deux","postid":2307228,"loved_count":3408,"posted_count":22,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/9c\/2307228.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/9c\/2307228_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/f9\/2297849_320.jpg","thumb_url_artist":null,"time":551,"description":"Concours
+        de circonstances aujourd\u2019hui : tous deux sont britanniques, furent les
+        valeurs s\u00fbres du Downtempo du d\u00e9but des ann\u00e9es 2000, et sont
+        rest\u00e9s dans le silence pendant plus de 4 ans. Vous l\u2019aurez compris,
+        Nightmares on Wax et Zero 7 sont de retour ! C","dateloved":1382505949,"plays":18,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Zero%207"},"5":{"mediaid":"1xmjy","artist":"Bondax","title":"Giving
+        It All (Radio Edit)","dateposted":1381231035,"siteid":13119,"sitename":"Neu","posturl":"http:\/\/www.thisisfakediy.co.uk\/articles\/neu\/the-neu-bulletin-8th-october-2013\/","postid":2325980,"loved_count":4073,"posted_count":42,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/dc\/2325980.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/dc\/2325980_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/ef\/2311919_320.jpg","thumb_url_artist":null,"time":190,"description":"The
+        Neu Bulletin provides a daily dose of new music tips, all in the name of exposing
+        you to something fresh and exciting. Every day we offer up a choice show,
+        a song of the day and a little something extra that''s caught our attention.
+        Check back here eve","dateloved":1383425427,"plays":17,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Bondax"},"6":{"mediaid":"1yrz7","artist":"Roosevelt","title":"Elliot","dateposted":1383648570,"siteid":17180,"sitename":"Frenchy
+        Symphony","posturl":"http:\/\/www.frenchysymphony.com\/post\/66080922246\/jeu-concours-discovery-nuba-roosevelt","postid":2354433,"loved_count":3112,"posted_count":40,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/1\/2354433.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/1\/2354433_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/64\/2339940_320.jpg","thumb_url_artist":null,"time":261,"description":"On
+        ne pr\u00e9sente plus ZAPPRUDER Records, label Franco-New Yorkais tout juste
+        install\u00e9 \u00e0 Paris, qui \u00e0...","dateloved":1383425163,"plays":17,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Roosevelt"},"7":{"mediaid":"1ypv8","artist":"Wiz
+        Khalifa","title":"Look Into My Eyes","dateposted":1377380538,"siteid":5728,"sitename":"Welikeit.indie","posturl":"http:\/\/diary.welikeitindie.com\/post\/59226468228","postid":2281521,"loved_count":2615,"posted_count":5,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/31\/2281521.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/31\/2281521_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/31\/2281521_320.jpg","thumb_url_artist":null,"time":216,"description":"Wiz
+        Khalifa is giving away a brand new song titled \u201cLook Into My Eyes\u201d.
+        The track belongs to his upcoming 5th studio album, Blacc Hollywood, due out
+        later this year. Look Into My Eyes \/\/ download","dateloved":1383424929,"plays":16,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Wiz%20Khalifa"},"8":{"mediaid":"1tcej","artist":"2
+        Chainz","title":"I''m Different","dateposted":1375124266,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2013\/07\/29\/lollapalooza-2013-earmilk-playlist\/","postid":2255217,"loved_count":671,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/83\/2129283.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/83\/2129283_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/83\/2129283_320.jpg","thumb_url_artist":null,"time":207,"description":"Every
+        year, the beautiful greenspaces of Grant Park is used to host an enormous
+        music festival called Lollapalooza. This is one of the main summer attractions
+        that Chicago is known for and as its twenty-third edition approaches, let''s
+        mentally prepare our","dateloved":1379736470,"plays":15,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/2%20Chainz"},"9":{"mediaid":"1ypng","artist":"Ella
+        Fitzgerald","title":"Blue Skies (Maya Jane Coles Remix)","dateposted":1377785657,"siteid":11631,"sitename":"deepbeep","posturl":"http:\/\/www.deepbeep.com.br\/blog\/maya-jane-coles-no-auge\/","postid":2285983,"loved_count":2232,"posted_count":11,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/9f\/2285983.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/9f\/2285983_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/9f\/2285983_320.jpg","thumb_url_artist":null,"time":337,"description":"A
+        japinha inglesa Maya Jane Coles lan\u00e7ou seu primeiro \u00e1lbum autoral
+        em julho (\u201cComfort\u201d, via seu selo I\/AM\/ME), momento decisivo de
+        todo artista revela\u00e7\u00e3o que chegou a um auge exitoso como \u00e9
+        o de Maya: boa DJ de v\u00e1rios ritmos, produtora de sucesso, foda n","dateloved":1383425620,"plays":14,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Ella%20Fitzgerald"},"10":{"mediaid":"1y16x","artist":"Eli
+        & Fur","title":"You''re So High","dateposted":1377662858,"siteid":17373,"sitename":"GIVAFIZZ","posturl":"http:\/\/givafizz.com\/eli-fur-youre-so-high-ejeca-remix\/","postid":2284381,"loved_count":2630,"posted_count":6,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/5d\/2284381.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/5d\/2284381_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/5d\/2284381_320.jpg","thumb_url_artist":null,"time":326,"description":"London\u2019s
+        freshest sounding producer duo Eli & Fur have released their mesmerising new
+        Illusions EP, which came out last month on NYX Records. Since bursting onto
+        the scene in 2012, Eli & Fur have been perfecting a sound built around infectious,
+        electronic","dateloved":1379559586,"plays":14,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Eli%20&%20Fur"},"11":{"mediaid":"1yg3f","artist":"Bee
+        Gees","title":"Tragedy (Forever Kid Remix)","dateposted":1377631482,"siteid":17165,"sitename":"Caveman
+        Sound","posturl":"http:\/\/cavemansound.com\/2013\/08\/27\/kylie-minogue-cant-get-you-out-of-my-head-forever-kid-remix\/","postid":2283959,"loved_count":5934,"posted_count":6,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/b7\/2283959.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/b7\/2283959_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/b7\/2283959_320.jpg","thumb_url_artist":null,"time":222,"description":"Swedish
+        born, LA based Forever Kid may be a new name on the streets but they are quickly
+        making their mark with a run of killer remixes. The up-and-coming duo recently
+        started a series called \u2018Forever Kid Fridays\u2019 which we\u2019ll see
+        a new remix or original f","dateloved":1378602264,"plays":14,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Bee%20Gees"},"12":{"mediaid":"1yacj","artist":"Cut
+        Copy","title":"Let Me Show You","dateposted":1383608593,"siteid":13346,"sitename":"buffaBLOG","posturl":"http:\/\/www.buffablog.com\/2013\/11\/listeners-digest-presents-upcoming.html","postid":2354099,"loved_count":2094,"posted_count":46,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/b3\/2354099.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/b3\/2354099_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/b3\/2354099_320.jpg","thumb_url_artist":null,"time":365,"description":"Is
+        the year slowing down? When I looked at what was coming out this month, I
+        started to realize that the new release stream is lightening as the year winds
+        to a close. Soon, we will be reading a seemingly endless string of year end
+        reviews (none of which ","dateloved":1382749287,"plays":13,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Cut%20Copy"},"13":{"mediaid":"1yz9f","artist":"Yumi
+        And The Weather","title":"All We Can","dateposted":1382367005,"siteid":17650,"sitename":"Stamp
+        The Wax","posturl":"http:\/\/www.stampthewax.com\/2013\/10\/21\/monday-morning-mixtape-009\/","postid":2339226,"loved_count":1503,"posted_count":21,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/9a\/2339226.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/9a\/2339226_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/83\/2337155_320.jpg","thumb_url_artist":null,"time":263,"description":"We
+        start with a heart-stopping track from Yann Tiersen, which you may recognise
+        from the Am\u00e9lie soundtrack. Also included is a brilliant collaboration
+        between Steve Spacek and Gifted & Blessed, whose new album Within These Machines
+        is out now. Look out fo","dateloved":1382505151,"plays":13,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Yumi%20And%20The%20Weather"},"14":{"mediaid":"1ydj5","artist":"Drake","title":"Hold
+        On We''re Going Home feat. Majid Jordan (100 BPM)","dateposted":1375810374,"siteid":10070,"sitename":"Hilly
+        Dilly","posturl":"http:\/\/www.hillydilly.com\/2013\/08\/drake-hold-on-were-going-home-ft-majid-jordan\/","postid":2263347,"loved_count":1511,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart\/50\/3.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/rev_1379367102\/images\/blog_images\/10070.jpg","thumb_url_artist":null,"time":210,"description":"Fresh
+        off his OVO Fest in Toronto last night, Drake has released his newest track,
+        \u201dHold On We\u2019re Going Home\u201d that features r&b newcomer Majid
+        Jordan. Truth be told, out of all the Drake songs that have been released
+        leading up to his new album, this r&b-","dateloved":1378485295,"plays":13,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Drake"},"15":{"mediaid":"1ybze","artist":"Felix
+        Cartal","title":"New Scene (feat. Ofelia)","dateposted":1376514897,"siteid":6988,"sitename":"Salacious
+        Sound","posturl":"http:\/\/salacioussound.com\/2013\/08\/felix-cartal-new-scene-feat-ofelia\/","postid":2272029,"loved_count":6668,"posted_count":7,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/1d\/2272029.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/1d\/2272029_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/1d\/2272029_320.jpg","thumb_url_artist":null,"time":240,"description":"The
+        Vancouver native Felix Cartal delivers. New Scene is nothing short of beautiful,
+        and to boot it\u2019s one of the favorite tracks he\u2019s ever written! Felix
+        Cartal On: Facebook | Soundcloud | Twitter ^Xaos Related posts: Felix Cartal
+        \u2013 Young Love ft. Koko La","dateloved":1378587999,"plays":12,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Felix%20Cartal"},"16":{"mediaid":"1c1vf","artist":"Atlas
+        Genius","title":"Trojans","dateposted":1381157995,"siteid":10481,"sitename":"Windy
+        City Rock","posturl":"http:\/\/www.windycityrock.net\/2013\/10\/atlas-genius-at-house-of-blues-10113.html","postid":2324787,"loved_count":9726,"posted_count":53,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/33\/2324787.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/9d\/2261917_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/9d\/2261917_320.jpg","thumb_url_artist":null,"time":216,"description":"By
+        Melissa Bordeau Once Atlas Genius opened up their 45-minute set at House of
+        Blues last Tuesday with \"If So,\" just about everyone in the crowd was clapping
+        along. The Australian group played together beautifully, as if they had been
+        playing together for","dateloved":1378485708,"plays":11,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Atlas%20Genius"},"17":{"mediaid":"1yzqy","artist":"f
+        y f e","title":"Solace (Jeremy Summer Camp Remix)","dateposted":1378690102,"siteid":6736,"sitename":"Pigeons
+        and Planes","posturl":"http:\/\/pigeonsandplanes.com\/2013\/09\/fyfe-solace-jeremy-summer-camp-remix\/","postid":2295102,"loved_count":961,"posted_count":7,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/3e\/2295102.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/3e\/2295102_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/e\/2262542_320.jpg","thumb_url_artist":null,"time":225,"description":"A
+        few weeks ago, f y f e churned out a lovely remix of Summer Camp\u2019s \u201cFresh.\u201d
+        Now, we have a response remix as Jeremy from Summer Camp returns the favor,
+        flipping Fyfe\u2019s \u201cSolace.\u201d Jeremy\u2019s version is a fast-paced,
+        upbeat affair that\u2019ll lift your spirits, ","dateloved":1380766715,"plays":10,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/f%20y%20f%20e"},"18":{"mediaid":"1k7vm","artist":"Eric
+        Clapton","title":"Cocaine (No Big Deal Remix)","dateposted":1376671811,"siteid":19297,"sitename":"Lautstark","posturl":"http:\/\/www.lautstark.me\/?p=1458","postid":2273955,"loved_count":7089,"posted_count":9,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/5a\/2270298.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/5a\/2270298_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/c4\/1779652_320.jpg","thumb_url_artist":null,"time":325,"description":"ERIIIIIIIIIIIC
+        CLAPTON IN YOU FACE!! Nur damit wir uns nicht falsch verstehen, das hier ist
+        das Original!","dateloved":1378483845,"plays":10,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Eric%20Clapton"},"19":{"mediaid":"1z8ad","artist":"Chromeo","title":"Over
+        Your Shoulder","dateposted":1383279255,"siteid":14883,"sitename":"Electro
+        Italia","posturl":"http:\/\/www.electroitalia.it\/chromeo-over-your-shoulder-sex-socialite\/","postid":2351135,"loved_count":9354,"posted_count":63,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs_new\/1f\/2351135.jpg","thumb_url_medium":"http:\/\/static-ak.hypem.net\/thumbs_new\/1f\/2351135_120.jpg","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs_new\/1f\/2351135_320.jpg","thumb_url_artist":null,"time":276,"description":"In
+        attesa del nuovo album \u201cWhite Women\u201d (in featuring con Ezra Koenig
+        dei Vampire Weekend, Toro Y Moi, Solange, Pat Mahoney degli LCD Soundsystem
+        e dal duo della Fools Gold Records \u201cOliver\u201d) ecco il nuovo Ep dei
+        Chromeo, contenente \u201cOver Your Shoulder\u201d e ","dateloved":1382504887,"plays":9,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Chromeo"}}'
+    http_version: 
+  recorded_at: Thu, 07 Nov 2013 19:49:42 GMT
+- request:
+    method: get
+    uri: http://api.hypem.com/api/get_profile?username=jackca
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/html
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.3
+      Date:
+      - Thu, 07 Nov 2013 19:49:41 GMT
+      Content-Type:
+      - text/javascript; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=10
+      Set-Cookie:
+      - AUTH=03%3A0c33f88af5dc14c8bb59a3bcd9c7c861%3A1383853781%3A1298538351%3AH9-GB;
+        expires=Sat, 03-Nov-2029 19:49:41 GMT; path=/; domain=hypem.com
+      X-Hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Headers:
+      - '*'
+    body:
+      encoding: UTF-8
+      string: '{"username":"JackCA","profile_url":"http:\/\/hypem.com\/JackCA","fullname":"Jack
+        Anderson","twitter_username":"janderson","userpic":"http:\/\/s3.amazonaws.com\/faces-s3.hypem.com\/123376770654842_75.png","joined_ts":1238371615,"favorites_count":{"user":9,"item":702,"site":46,"query":21,"followers":5},"location":"San
+        Francisco, CA, US"}'
+    http_version: 
+  recorded_at: Thu, 07 Nov 2013 19:49:42 GMT
+recorded_with: VCR 2.6.0
