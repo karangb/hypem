@@ -12,7 +12,4 @@ describe Hypem::TrackMp3 do
       
     end
   end
-  
-  
-  
 end
